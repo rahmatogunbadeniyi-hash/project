@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegas Web Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/2349130140473?text=Hello%20Vegas%20Studio!%20I%27d%20like%20to%20learn%20more%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-btn" title="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+      <g>
+        <circle cx="28" cy="28" r="28" fill="#25D366" />
+        <path d="M39.5 16.5c-3.1-3.1-8.1-3.1-11.2 0-2.2 2.2-2.9 5.4-1.7 8.2l-1.1 4.1c-.2.7.5 1.4 1.2 1.2l4.1-1.1c2.8 1.2 6 0.5 8.2-1.7 3.1-3.1 3.1-8.1 0-11.2zm-5.6 10.2c-2.5 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2.1 4.6-4.6 4.6z" fill="#fff" />
+        <path d="M28 14c-7.7 0-14 6.3-14 14 0 2.5.7 4.9 2 7l-2.1 7.7c-.2.7.5 1.4 1.2 1.2l7.7-2.1c2.1 1.3 4.5 2 7 2 7.7 0 14-6.3 14-14s-6.3-14-14-14zm0 25.2c-2.2 0-4.3-.6-6.1-1.7l-.4-.2-5.5 1.5 1.5-5.5-.2-.4c-1.1-1.8-1.7-3.9-1.7-6.1 0-6.2 5-11.2 11.2-11.2s11.2 5 11.2 11.2-5 11.2-11.2 11.2z" fill="#fff" />
+      </g>
+    </svg>
+    <span class="whatsapp-label">Chat on WhatsApp <strong>+234 913 014 0473</strong></span>
+  </a>
+  <nav class="navbar">
+    <div class="vegas-logo">
+      <svg width="240" height="54" viewBox="0 0 240 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="240" height="54" rx="16" fill="wheat" />
+        <text x="10" y="38" font-family="'Segoe UI', 'Arial', sans-serif" font-size="32" font-weight="bold"
+          fill="#2196f3">Vegas</text>
+        <text x="120" y="38" font-family="'Segoe UI', 'Arial', sans-serif" font-size="32" font-weight="bold"
+          fill="#ff9800">Studio</text>
+      </svg>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html" class="active">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <audio id="bg-music" src="index/audio/background.mp3" autoplay loop muted hidden></audio>
+  <section class="video-gallery">
+    <h2 style="text-align:center; margin-top:32px;">My Projects</h2>
+    <div class="video-cards" style="margin-top:32px; justify-content:center; display:flex; flex-wrap:wrap; gap:24px;">
+      <div class="video-card">
+        <div class="video-thumb">
+          <video src="index/video/project1.mp4" poster="index/images/project.png" autoplay muted loop playsinline controls></video>
+          <div class="play-btn"> <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="30" stroke="#00fff7" stroke-width="4" fill="rgba(0,0,0,0.7)" />
+              <polygon points="26,20 50,32 26,44" fill="#00fff7" filter="url(#neon)" />
+              <filter id="neon">
+                <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00fff7" />
+              </filter>
+            </svg>
+          </div>
+        </div>
+        <div class="video-title">Project 1</div>
+        <div class="video-desc">A modern car finder platform created by Vegas. Users can browse and discover vehicles
+          easily with a sleek, user-friendly interface.</div>
+      </div>
+      <div class="video-card">
+        <div class="video-thumb">
+          <video src="index/video/project2.mp4" poster="index/images/project3.png" autoplay muted loop playsinline controls></video>
+          <div class="play-btn">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="30" stroke="#00fff7" stroke-width="4" fill="rgba(0,0,0,0.7)" />
+              <polygon points="26,20 50,32 26,44" fill="#00fff7" filter="url(#neon)" />
+              <filter id="neon">
+                <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00fff7" />
+              </filter>
+            </svg>
+          </div>
+        </div>
+        <div class="video-title">Project 2</div>
+        <div class="video-desc">This is a SPA website designed by Vegas. It offers a relaxing and professional online
+          presence for spa businesses, featuring service listings and booking options.</div>
+      </div>
+      <div class="video-card">
+        <div class="video-thumb">
+          <video src="" poster="index/images/project2.png" autoplay muted loop playsinline controls></video>
+          <div class="play-btn">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="30" stroke="#00fff7" stroke-width="4" fill="rgba(0,0,0,0.7)" />
+              <polygon points="26,20 50,32 26,44" fill="#00fff7" filter="url(#neon)" />
+              <filter id="neon">
+                <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00fff7" />
+              </filter>
+            </svg>
+          </div>
+        </div>
+        <div class="video-title">Project 3</div>
+        <div class="video-desc">This is a Amination Design by Vegas. It describes the great use of coding for designing.
+        </div>
+      </div>
+  </section>
+  <script>
+    document.querySelectorAll('.video-card').forEach(function (card) {
+      var video = card.querySelector('video');
+      var playBtn = card.querySelector('.play-btn');
+      if (!video) return;
+      // Hide overlay immediately if the video is muted or autoplaying
+      if (playBtn && (video.muted || video.autoplay)) {
+        playBtn.classList.add('hide');
+        // attempt to play (may be muted autoplay)
+        video.play().catch(function(){});
+      }
+      if (playBtn) {
+        playBtn.addEventListener('click', function () {
+          video.muted = false; // unmute if user explicitly clicks overlay
+          video.play();
+          playBtn.classList.add('hide');
+        });
+      }
+      video.addEventListener('pause', function () {
+        if (playBtn) playBtn.classList.remove('hide');
+      });
+      video.addEventListener('play', function () {
+        if (playBtn) playBtn.classList.add('hide');
+      });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.video-card');
+      let delay = 0;
+      cards.forEach((card, i) => {
+        setTimeout(() => {
+          card.classList.add('visible');
+        }, delay);
+        delay += 3000;
+      });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var music = document.getElementById('bg-music');
+      // set a reasonable default volume
+      try { music.volume = 0.18; } catch (e) {}
+      // Try to play immediately (muted) so autoplay is allowed
+      if (music && typeof music.play === 'function') {
+        music.play().catch(function(){});
+      }
+      // On first user interaction unmute and ensure playback
+      document.body.addEventListener('click', function () {
+        if (!music) return;
+        music.muted = false;
+        music.play().catch(function(){});
+      }, { once: true });
+    });
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navList = document.getElementById('nav-list');
+    if (hamburger && navList) {
+      hamburger.addEventListener('click', function () {
+        navList.classList.toggle('active');
+      });
+    }
+  </script>
+</body>
+
+</html>
